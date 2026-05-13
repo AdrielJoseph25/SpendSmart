@@ -110,12 +110,6 @@ Get your free API key at: https://aistudio.google.com
 
 ---
 
-## 📸 Screenshots
-
-> Dashboard with spending overview, Transactions page, Budgets with bar chart, and AI Insights powered by Gemini.
-
----
-
 ## 🧠 Skills Demonstrated
 
 - **NLP & AI Integration** — Google Gemini API for personalized financial advice
