@@ -52,7 +52,7 @@ def ai_insights(request):
         Give practical, friendly advice in bullet points.
         """
 
-        model = genai.GenerativeModel('gemini-pro')
+        model = genai.GenerativeModel('gemini-flash-latest')
         response = model.generate_content(prompt)
         return Response({'insights': response.text})
     except Exception as e:

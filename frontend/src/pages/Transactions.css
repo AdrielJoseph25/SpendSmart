@@ -1,0 +1,67 @@
+.form-card {
+  animation: slideDown 0.3s ease-out;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+.transactions-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.transactions-table th,
+.transactions-table td {
+  padding: var(--spacing-md);
+  text-align: left;
+  border-bottom: 1px solid var(--glass-border);
+}
+
+.transactions-table th {
+  color: var(--text-secondary);
+  font-weight: 500;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+.transactions-table tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.transactions-table tr:last-child td {
+  border-bottom: none;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: var(--radius-full);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  background: rgba(255, 255, 255, 0.1);
+  color: var(--text-secondary);
+}
+
+.badge-food { background: rgba(16, 185, 129, 0.15); color: #34d399; }
+.badge-transport { background: rgba(56, 189, 248, 0.15); color: #7dd3fc; }
+.badge-shopping { background: rgba(244, 114, 182, 0.15); color: #f9a8d4; }
+.badge-entertainment { background: rgba(167, 139, 250, 0.15); color: #c4b5fd; }
+.badge-health { background: rgba(251, 113, 133, 0.15); color: #fda4af; }
+.badge-bills { background: rgba(250, 204, 21, 0.15); color: #fde047; }

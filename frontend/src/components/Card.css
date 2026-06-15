@@ -1,0 +1,18 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.card-title {
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: 1.125rem;
+  border-bottom: 1px solid var(--glass-border);
+  color: var(--text-primary);
+  margin: 0;
+}
+
+.card-body {
+  padding: var(--spacing-lg);
+  flex: 1;
+}

@@ -1,0 +1,12 @@
+.layout {
+  display: flex;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  margin-left: 280px; /* sidebar width (250) + spacing (30) */
+  padding: var(--spacing-xl);
+  padding-top: var(--spacing-xl);
+  max-width: 1200px;
+}
