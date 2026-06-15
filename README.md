@@ -41,16 +41,19 @@ SpendSmart/
 │   │   └── urls.py          # Root URL config
 │   └── manage.py
 └── frontend/
-    └── src/
-        ├── pages/
-        │   ├── Dashboard.js     # Main dashboard with charts
-        │   ├── Transactions.js  # Transaction management
-        │   ├── Budgets.js       # Budget tracking
-        │   └── Insights.js      # AI insights & anomaly detection
-        ├── services/
-        │   └── api.js           # Axios API calls
-        ├── App.js               # Main app with routing
-        └── App.css              # Global styles
+    ├── src/
+    │   ├── components/      # Reusable UI elements (Card, Layout, Sidebar)
+    │   ├── pages/
+    │   │   ├── Dashboard.jsx  # Main dashboard with charts, AI insights & anomalies
+    │   │   ├── Transactions.jsx # Transaction management and categories
+    │   │   └── Budgets.jsx    # Budget tracking and configuration
+    │   ├── api.js           # Axios API service configuration
+    │   ├── App.jsx          # Root application with router
+    │   ├── index.css        # Premium custom CSS variables & styling
+    │   └── main.jsx         # Vite application entry point
+    ├── index.html           # HTML template
+    ├── package.json         # Node package configuration
+    └── vite.config.js       # Vite configuration
 ```
 
 ---
@@ -83,8 +86,9 @@ Open a new terminal tab:
 ```bash
 cd frontend
 npm install
-npm start
+npm run dev
 ```
+*(Frontend runs at `http://localhost:5173`)*
 
 ### 4. Add Gemini API Key (for AI Insights)
 Create a `.env` file in the `backend/` folder:
