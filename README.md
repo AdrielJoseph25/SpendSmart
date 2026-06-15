@@ -127,7 +127,3 @@ Get your free API key at: https://aistudio.google.com
 GitHub: [@AdrielJoseph25](https://github.com/AdrielJoseph25)
 
 ---
-
-## 📄 License
-
-This project is open source and available under the [MIT License](LICENSE).
